@@ -1,0 +1,125 @@
+/* css navbar */
+#navbar {
+    background-color: #616A6B; /* Color de fondo */
+}
+
+.navbar-brand img {
+    width: 110px; /* Tamaño del logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y los enlaces */
+    border-radius: 2mm;
+    
+}
+
+.navbar-nav {
+    margin-left: auto; /* Alinea los enlaces al lado derecho */
+    
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Color del texto */
+    margin-left: 20px; /* Espacio entre los enlaces */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+    color: #58D68D ; /* Color cuando el mouse pasa por encima */
+}
+
+
+/* Estilos para el botón de hamburguesa */
+.navbar-toggler {
+    border: none;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+/* finaliza navbar css */
+
+/* css carrousel */
+.carousel-caption {
+    background-color: rgba(28, 79, 120, 0.517); /* Color de fondo transparente */
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; /* Cambiar la fuente a Arial */
+    text-align: center; /* Centrar el texto */
+    position: absolute; /* Posicionamiento absoluto */
+    
+    transform: translateY(-140%); /* Centrar verticalmente */
+ 
+   
+    
+}
+
+/* finaliza carrousel */
+
+
+/* css footer */
+/* Estilos para el footer */
+.footer {
+    background-color: #616A6B; /* Color de fondo del footer */
+}
+
+/* Estilos para los títulos de las secciones */
+.footer h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fuente */
+    font-weight: bold; /* Peso de la fuente */
+    letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+/* Estilos para los párrafos del footer */
+.footer p {
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilos para los botones de redes sociales */
+.footer .btn-lg-square {
+    width: 40px; /* Ancho */
+    height: 40px; /* Alto */
+    border-radius: 50%; /* Borde redondeado */
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Estilos para el formulario de correo */
+.footer .input-group input {
+    border-radius: 10px; /* Borde redondeado */
+}
+
+.footer .input-group button {
+    border-radius: 20px; /* Borde redondeado */
+    font-weight: bold; /* Peso de la fuente */
+}
+
+/* Estilos para el texto del footer */
+.footer p {
+    font-family: Arial, sans-serif; /* Fuente */
+    font-size: 14px; /* Tamaño de fuente */
+}
+
+/* Estilos para el texto de derechos de autor */
+.footer .text-center p {
+    font-size: 12px; /* Tamaño de fuente */
+}
+
+/* Estilos para los enlaces en el texto de derechos de autor */
+.footer .text-center a {  
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer .text-center a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+/* finaliza footer */
+
+
+
+
+
+
+
+
